@@ -14,8 +14,12 @@
 	       return(false);
 	}
 	
-	window.location.href="http://sports.yahoo.com" 
-	+ "/";
+	var NumberURL = getQueryVariable(variable);
+
+	
+	window.location.href="http://sports.yahoo.com/?video"  
+	+ NumberURL
+	+ ".mpg";
 	
 	</script>
 </head>
