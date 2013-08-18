@@ -18,9 +18,13 @@
 	
 	// alert(NumberURL);
 	
-	window.location.href="http://donkeykongroom.com/video"  
-	+ NumberURL
-	+ ".mp4";
+	if (NumberURL != false) {
+		window.location.href="http://donkeykongroom.com/video"  
+		+ NumberURL
+		+ ".mp4";
+	} else {
+		window.location.href="http://twitter.com/DonkeyKongRoom";
+	}
 	
 	</script>
 </head>
